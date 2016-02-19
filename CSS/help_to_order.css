@@ -1,0 +1,164 @@
+.order{
+    color:white;
+    text-align:center;
+    background:black;
+    padding:0;
+    margin:0;
+    height: 50px;
+    width: 100%;
+    line-height: 60px;
+    font-size: 23px;
+}
+.back{
+    text-align:left;
+    height: 30px;
+    color: white;
+    background: #333333;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 50px;
+    z-index: 3;
+    display: inline-block;
+    padding: 4px 12px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.person{
+    padding-left: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.input-name{
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    padding-top: 14px;
+    padding-left: 35px;
+    padding-bottom: 14px;
+    padding-right: 35px;
+}
+.choose-person-button{
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color:  #f5f5f5;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    min-height: 20px;
+    background-image: linear-gradient(to bottom,#fff,#e6e6e6)
+}
+.choose-person-button:hover{
+    background: linear-gradient(to bottom,#fff,#DEDEDE);
+}
+.restaurant{
+    padding-left: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.input-name{
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    webkit-border-radius: 4px;
+    border-radius: 6px;
+    padding-top: 14px;
+    padding-left: 35px;
+    padding-bottom: 14px;
+    padding-right: 35px;
+
+}
+.choose-restaurant-button{
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    min-height: 20px;
+    background-image: linear-gradient(to bottom,#fff,#e6e6e6)
+}
+.choose-restaurant-button:hover{
+    background: linear-gradient(to bottom,#fff,#DEDEDE);
+}
+.meal{
+    padding-left: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.input-name{
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    width:94.5%;
+    height:20%;
+    padding-top: 14px;
+    padding-left: 35px;
+    padding-bottom: 14px;
+    padding-right: 35px;
+}
+.choose-meal-button{
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    min-height: 20px;
+    background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+    width: 100%;
+}
+.choose-meal-button:hover{
+    background: linear-gradient(to bottom,#fff,#DEDEDE);
+}
+.acknowledgement{
+    line-height: 20px;
+    color: #333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    min-height: 20px;
+    background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+    width: 100%;
+}
+.acknowledgement:hover{
+    background: linear-gradient(to bottom,#fff,#DEDEDE);
+}
+body{
+    display: block;
+    margin: 0;
+}
+input[type="button"]:disabled{
+    background: gainsboro;
+}
